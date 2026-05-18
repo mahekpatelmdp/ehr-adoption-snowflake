@@ -81,36 +81,6 @@ ehr-adoption-snowflake/
 pip install -r requirements.txt
 ```
 
-### 3. Configure credentials
-Edit `snowflake.cfg`:
-```ini
-[SNOWFLAKE]
-user       = your_username
-password   = your_password
-account    = your_account_identifier
-warehouse  = COMPUTE_WH
-database   = EHR_DB
-schema     = EHR_SCHEMA
-```
-> Your account identifier is shown in the Snowflake UI under Admin → Accounts (format: `abc12345.us-east-1`)
-
-### 4. Generate the dataset
-```bash
-python generate_data.py
-```
-
-### 5. Create tables in Snowflake
-```bash
-python 1_create_tables.py
-```
-
-### 6. Run the ETL pipeline
-```bash
-python 2_etl.py
-```
-
-### 7. Validate & analyze
-Open `notebooks/3_test_queries.ipynb` in Jupyter and run all cells.
 
 ---
 
@@ -128,7 +98,7 @@ Open `notebooks/3_test_queries.ipynb` in Jupyter and run all cells.
 
 **Mahek Patel**
 - GitHub: [@mahekpatelmdp](https://github.com/mahekpatelmdp)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/mahek-patel-8ba264286)
 
 ---
 
